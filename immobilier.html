@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photographie Immobilière — Ciantar Benoît</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">Ciantar<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="sport.html">Sport</a></li>
+    <li><a href="immobilier.html" class="active">Immobilier</a></li>
+    <li><a href="lifestyle.html">Lifestyle</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<div class="page-hero">
+  <div class="section-label" style="justify-content:center;">Photographie</div>
+  <h1 class="section-title"><em>Immobilier</em></h1>
+  <p style="color: var(--grey); max-width: 560px; margin: 0 auto; line-height: 1.9; font-size: 13px;">Mettez en valeur vos biens avec des images professionnelles. Appartements, villas, maisons — livraison sous 48h, 15 à 20 photos retouchées.</p>
+</div>
+<section style="padding-bottom: 0;">
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2px; max-width: 700px; margin: 0 auto;">
+    <div style="background: var(--card); border: 1px solid var(--border); padding: 40px; text-align: center;">
+      <div class="section-label" style="justify-content:center; margin-bottom: 12px;">Appartement</div>
+      <div style="font-family: var(--font-display); font-size: 52px; font-weight: 300; color: var(--gold); line-height:1;">150€</div>
+      <div style="color: var(--grey); font-size: 11px; margin-top: 8px;">à partir de</div>
+      <div style="color: var(--grey); font-size: 12px; margin-top: 16px; line-height: 1.7;">15–20 photos retouchées<br>Livraison 48h</div>
+    </div>
+    <div style="background: var(--card); border: 1px solid var(--gold); padding: 40px; text-align: center;">
+      <div class="section-label" style="justify-content:center; margin-bottom: 12px;">Villa / Maison</div>
+      <div style="font-family: var(--font-display); font-size: 52px; font-weight: 300; color: var(--gold); line-height:1;">250€</div>
+      <div style="color: var(--grey); font-size: 11px; margin-top: 8px;">à partir de</div>
+      <div style="color: var(--grey); font-size: 12px; margin-top: 16px; line-height: 1.7;">15–20 photos retouchées<br>Livraison 48h</div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="gallery-grid">
+    <img src="images/salon-15-AoPWeBwlzRu7yVPK.jpg" alt="">
+    <img src="images/salon-1-m7V3pWBgjwIo1p2V.jpg" alt="">
+    <img src="images/salon-1-2-YbNBaWe5nvilG9x9.jpg" alt="">
+    <img src="images/salon-2-YKb3Jq2xkWhDgyJz.jpg" alt="">
+    <img src="images/salon-2-2-Aq2WBazQLVsW5r0p.jpg" alt="">
+    <img src="images/salon-7-AR0LJGnBR0t4q3N8.jpg" alt="">
+    <img src="images/salon-8-A3Q2p5Z4jNSbrnyn.jpg" alt="">
+    <img src="images/salon-10-A1aPKODLNjsp8X1D.jpg" alt="">
+    <img src="images/salon-12-AR0LJGn4b8slg5wP.jpg" alt="">
+    <img src="images/cuisine-2-YZ982yoq8PcaPwWX.jpg" alt="">
+    <img src="images/cuisine-3-YD0lp3ag9jfzMx6a.jpg" alt="">
+    <img src="images/cuisine-4-AR0LJGnB89s8LoaZ.jpg" alt="">
+    <img src="images/chambre-1-2-Yyv9oz1xQZt589rN.jpg" alt="">
+    <img src="images/chambre-1-3-m2W84LMvMOHyDkbz.jpg" alt="">
+    <img src="images/chambre-1-AQExJKG5QZSR49KJ.jpg" alt="">
+    <img src="images/salledebain-5-mePxL9k2k4hwwgzO.jpg" alt="">
+    <img src="images/immeuble-1-2-mxB4rJ01rJTE48Ez.jpg" alt="">
+    <img src="images/immeuble-1-3-mjE72R0xnRcox3Lr.jpg" alt="">
+    <img src="images/immeuble-1-4-m5KMvVX5ENT0QpW2.jpg" alt="">
+    <img src="images/vue-1-AVL7JlG8ZnhBBPBj.jpg" alt="">
+  </div>
+  <div style="text-align:center; margin-top: 64px;"><a href="contact.html" class="btn">Demander un devis</a></div>
+</section>
+<footer>
+  <a href="index.html" class="footer-logo">Ciantar<span>.</span></a>
+  <p class="footer-tagline">Capturer l'essence de chaque instant.</p>
+  <p class="footer-copy">© 2025 Ciantar Benoît</p>
+</footer>
+<script>
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => { navbar.classList.toggle('scrolled', window.scrollY > 60); });
+</script>
+</body>
+</html>

@@ -1,4 +1,0 @@
-Sitemap: https://ciantarbenoit.fr/sitemap.xml
-
-User-agent: *
-Disallow:
